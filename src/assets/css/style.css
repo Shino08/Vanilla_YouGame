@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slide-out-left {
+    transform: translateX(-25%);
+  }
+  
+  .slide-out-right {
+    transform: translateX(25%);
+  }
+  
+  .slide-in-left {
+    transform: translateX(0);
+  }
+  
+  .slide-in-right {
+    transform: translateX(0);
+  }
+  
+  #cardsContainer {
+    transition: transform 0.3s ease;
+  }
+
+  .game-card {
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 1s ease-in-out; /* Transición suave de 1 segundo */
+  }
+  
+  .game-card.opacity-100 {
+    opacity: 1; /* Hacer visible */
+  }
+
