@@ -1,4 +1,4 @@
-import img1 from "../assets/images/imgCards/Mp.Banner.png";
+import img1 from "../assets/images/imgCards/MP.Banner.png";
 import img2 from "../assets/images/imgCards/halo-reach-banner.png";
 import img3 from "../assets/images/imgCards/blackmyth-banner.png";
 import img4 from "../assets/images/imgCards/godofwar4-header-BANNER.jpg";

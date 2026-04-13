@@ -1,4 +1,3 @@
-import { split } from "postcss/lib/list";
 import NotFoundPage from "../pages/NotFoundPage";
 
 const routes = [];
