@@ -47,6 +47,11 @@ const Header = () => {
             <!-- Iconos de Navegación -->
             <div class="flex items-center space-x-4 md:space-x-6">
 
+                <a href="/cart" class="flex items-center text-gray-800 font-medium hover:text-purple-800 relative">
+                    <i class="fas fa-shopping-cart text-gray-700 hover:text-purple-500"></i>
+                    <span class="hidden md:inline ml-2">Carrito</span>
+                </a>
+
                 <a href="#" class="flex items-center text-gray-800 font-medium hover:text-purple-800 relative">
                     <i class="fas fa-user mr-2"></i>
                     <span class="hidden md:inline">Mi Cuenta</span>
